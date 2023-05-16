@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+        
+        thead,tfoot {
+            background-color: #383838;
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top:-1px;
+            background-color: #383838;
+
+
+        
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+   
+    
+</head>
+<body>
+    <h1>Uso de tablas grandes</h1>
+     <!--
+        ANATOMIA PARA LAS TABLAS GRANDES
+        TABLE
+             CAPTION
+             THEAD
+               TR,TD,TH
+             TBODY
+               TR,TD,TH
+             TFOOT
+               TR,TD,TH  
+    -->
+    <table>
+        <caption>Populacion de las Unidades Federativa
+        </caption>
+        <thead>
+           <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">Populacion</th>
+           </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>210.147.125</strong></td>
+              </tr>
+        
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+
+            </tr>
+               <td>Rio de Janeiro</td>
+               <td>17 264 943</td>
+
+
+        </tbody>
+       
+        
+    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, amet. Deserunt, doloremque cupiditate, ipsam voluptatum nesciunt praesentium quidem laboriosam maiores, consequatur quod animi dolore. Maiores ipsum aperiam natus enim praesentium!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos perferendis eius odio, commodi velit sapiente temporibus tenetur soluta non perspiciatis autem, consectetur natus. Modi quisquam unde minus sapiente molestiae ab.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere, beatae excepturi saepe id praesentium quae, eos inventore at error quas quo, impedit itaque eum! Iure perferendis voluptate nam voluptatum!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam saepe aperiam, nesciunt dolores dignissimos asperiores cupiditate eaque, assumenda recusandae numquam dolorum laboriosam excepturi aliquam non quis perferendis, voluptates repudiandae voluptatem?
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis atque laborum dolores dolore quo reprehenderit quae quia, placeat dolorem non quas, hic nostrum maxime, nemo accusamus provident doloribus recusandae officia!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a eaque, earum atque mollitia nulla officia animi. Atque magni deserunt eligendi, non tempora harum quas ullam dolorum! Officiis, suscipit cum.
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, veniam, nobis ea a tempore error quae natus nemo sapiente incidunt aut qui, dolorum saepe consectetur laboriosam nam ducimus explicabo molestiae.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, a iste inventore nesciunt voluptatum aliquam molestiae itaque facilis ipsam doloribus repudiandae quod, sed soluta suscipit reiciendis laborum magnam beatae eligendi?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsam ipsum soluta molestias corporis dolor magni. Est unde nesciunt autem, sit iste illo eius. Ad dolorem neque similique velit molestias?
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum doloribus, nesciunt at esse quas laudantium asperiores eligendi velit, eveniet totam harum ipsam. Dicta atque dolor laboriosam assumenda itaque ut quae.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iusto animi fuga, quidem dolorum voluptatem quae voluptatibus autem repellat illum, quisquam, hic laborum distinctio excepturi earum. In assumenda consequuntur recusandae!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum modi non praesentium architecto, magnam sequi vel laborum quod amet repellendus saepe incidunt mollitia molestiae vitae culpa vero, facilis eum tenetur.
+    </p>
+    </p>
+    </p>
+    
+</body>
+
+</html>
