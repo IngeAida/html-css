@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <style>
+      *{
+         font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
 </head>
 <body>
     <h1>Mi primer formulario</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
       <p><label for="inombre">Nombre: <input type="text" name="nombre" id="inombre"></p></label>
       <p><label for="iapellido">Apellido: <input type="text" name="apellido" id="iapellido"></p></label>
       <p><input type="submit" value="Enviar" ></p>
