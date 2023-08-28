@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Aparato en pie (portrait) */
+
+body{
+     background-image: url(../imagenes/cev-portrait.jpg);
+     background-position: center bottom;
+
+}
